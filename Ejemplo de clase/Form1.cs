@@ -16,5 +16,13 @@ namespace Ejemplo_de_clase
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Automovil toyota = new Automovil();
+            label1.Text = "Su Automovil \n Modelo:" + toyota.modelo + "\n";
+            label1.Text +="Color:"+toyota.color + "\n";
+            label1.Text += "Fabricante:" + toyota.Fabricante;
+        }
     }
 }
