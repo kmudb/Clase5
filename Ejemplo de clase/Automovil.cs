@@ -31,7 +31,7 @@ namespace Ejemplo_de_clase
         }
         public string girar()
         {
-            return "Estoy girando";
+            return "Estoy girando el automovil";
         }
     }
 }
